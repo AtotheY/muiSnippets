@@ -1,0 +1,23 @@
+{
+  "MUI": {
+    "prefix": "mui",
+    "body": [
+      "import React from 'react';",
+      "import { Typography, makeStyles } from '@material-ui/core';",
+      "",
+      "const useStyles = makeStyles({});",
+      "",
+      "const ${TM_FILENAME_BASE} = () => {",
+      "  return (",
+      "    <>",
+      "      <Typography> ${TM_FILENAME_BASE} </Typography>",
+      "    </>",
+      "  );",
+      "};",
+      "",
+      "export default ${TM_FILENAME_BASE};",
+      ""
+    ],
+    "description": "Material UI Component"
+  }
+}
